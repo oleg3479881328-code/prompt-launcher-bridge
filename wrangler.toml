@@ -1,0 +1,10 @@
+name = "prompt-launcher-bridge"
+main = "src/index.js"
+compatibility_date = "2026-06-11"
+workers_dev = true
+
+[vars]
+ALLOWED_ORIGIN = "https://oleg3479881328-code.github.io"
+
+[secrets]
+required = ["NOTION_ACCESS_TOKEN", "BRIDGE_ACCESS_KEY"]
